@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap");
+
+* {
+    background-color: #f4f3f8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    /* overflow: hidden; */
+}
+
+
+
+/* navbar desighn  */
+#navbarMonstera {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px;
+    margin: 0px 10px;
+}
+
+#navMid {
+    display: inline-block;
+    align-items: center;
+    display: flex;
+}
+
+#navMid h4 {
+    opacity: 0.8;
+    padding: 10px 30px;
+    transition: all 0.4s ease;
+}
+
+#navMid h4:hover {
+    text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#navEnd {
+    align-items: center;
+    display: flex;
+}
+
+#navEnd img {
+    font-size: 30px;
+    padding: 15px;
+}
+
+/* mid part  */
+#midWholePart11 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    margin-right: 750px;
+}
+
+#monstera {
+    font-size: 5.5rem;
+}
+
+/* button  */
+#midWholePart12 {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    background-color: #466d50;
+    padding: 10px;
+    margin: 0px 15px;
+
+}
+
+#midWholePart121 {
+    background-color: #466d50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#midWholePart121 h1 {
+    background-color: #466d50;
+}
+
+#midWholePart122 {
+    background-color: #466d50;
+}
+
+#midWholePart122 img {
+    position: relative;
+    top: 3px;
+    left: 0.3rem;
+    background-color: #466d50;
+    padding: 8px;
+    font-weight: 200;
+
+}
+
+
+/* part123 */
+#midWholePart13 {
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    left: 10px;
+    margin-right: 500px;
+}
+
+.midWholePart13Parts {
+    display: flex;
+}
+
+.midWholePart13Parts img {
+    padding: 8px;
+    height: 63px;
+    width: 43px;
+}
+
+.midWholePart13Parts h4,
+p {
+    text-align: left;
+}
+
+#imgMain {
+    position: relative;
+    bottom: 288px;
+    left: 785px;
+    z-index: 1;
+    height: 461px;
+    width: 478px;
+}
